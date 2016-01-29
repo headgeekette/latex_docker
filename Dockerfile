@@ -9,7 +9,12 @@ COPY texlive.profile /profiles/
 
 RUN cd install-tl-*/ && ./install-tl --profile=/profiles/texlive.profile
 
+RUN export PATH=$PATH:/usr/local/texlive/2015/bin/x86_64-linux && tlmgr install latex latex-bin latexconfig latex-fonts
+
+ENV INFOPATH /usr/local/texlive/2015/texmf-dist/doc/info
+ENV MANPATH /usr/local/texlive/2015/texmf-dist/doc/man
+
 RUN mkdir -p /source
 WORKDIR /source
 
-ENTRYPOINT ["pdflatex"]
+ENTRYPOINT ["/usr/local/texlive/2015/bin/x86_64-linux/pdftex"]
