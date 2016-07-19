@@ -4,6 +4,7 @@ MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
+ perl \
  wget \
  python \
  && apt-get clean
