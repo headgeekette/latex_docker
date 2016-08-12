@@ -4,4 +4,4 @@ The docker contains the plain TeX environment as well as the base LaTeX packages
 
 **USAGE**
 
-    docker run -v `pwd`:/source headgeekette/docker-latex [filename].tex
+    docker run -v `pwd`:/source headgeekette/latex [filename].tex
