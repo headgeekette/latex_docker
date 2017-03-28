@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:trusty
 MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
