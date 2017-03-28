@@ -7,6 +7,7 @@ RUN apt-get update \
     && apt-get install -y \
         perl-tk \
         wget \
+        python \
     && apt-get clean
 
 RUN wget http://mirror.pregi.net/tex-archive/systems/texlive/tlnet/install-tl-unx.tar.gz \
