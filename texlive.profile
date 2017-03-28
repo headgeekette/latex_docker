@@ -1,19 +1,22 @@
-# texlive.profile written on Fri Jan 29 15:08:16 2016 UTC
+# texlive.profile written on Mon Mar 27 19:16:12 2017 UTC
 # It will NOT be updated and reflects only the
 # installation profile at installation time.
 selected_scheme scheme-custom
-TEXDIR /usr/local/texlive/2015
-TEXMFCONFIG ~/.texlive2015/texmf-config
+TEXDIR /usr/local/texlive/2016
+TEXMFCONFIG ~/.texlive2016/texmf-config
 TEXMFHOME ~/texmf
 TEXMFLOCAL /usr/local/texlive/texmf-local
-TEXMFSYSCONFIG /usr/local/texlive/2015/texmf-config
-TEXMFSYSVAR /usr/local/texlive/2015/texmf-var
-TEXMFVAR ~/.texlive2015/texmf-var
+TEXMFSYSCONFIG /usr/local/texlive/2016/texmf-config
+TEXMFSYSVAR /usr/local/texlive/2016/texmf-var
+TEXMFVAR ~/.texlive2016/texmf-var
 binary_x86_64-linux 1
 collection-basic 1
 collection-fontsrecommended 1
+collection-langenglish 1
 collection-latex 1
 collection-latexrecommended 1
+collection-metapost 1
+collection-xetex 1
 in_place 0
 option_adjustrepo 1
 option_autobackup 1
