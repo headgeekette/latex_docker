@@ -1,7 +1,8 @@
 ## Tags
 
 - TexLive-2015 (for Tex Live 2015)
-- latest (for Tex Live 2016)
+- TexLive-2016 (for Tex Live 2016)
+- latest (for Tex Live 2018)
 
 ## Description
 
