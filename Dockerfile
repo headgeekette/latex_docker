@@ -15,9 +15,9 @@ RUN wget http://mirror.pregi.net/tex-archive/systems/texlive/tlnet/install-tl-un
     && mkdir -p /profiles/ \
     && mkdir -p /source
 
-ENV PATH /usr/local/texlive/2016/bin/x86_64-linux:$PATH
-ENV INFOPATH /usr/local/texlive/2016/texmf-dist/doc/info
-ENV MANPATH /usr/local/texlive/2016/texmf-dist/doc/man
+ENV PATH /usr/local/texlive/2018/bin/x86_64-linux:$PATH
+ENV INFOPATH /usr/local/texlive/2018/texmf-dist/doc/info
+ENV MANPATH /usr/local/texlive/2018/texmf-dist/doc/man
 
 COPY texlive.profile /profiles/
 
