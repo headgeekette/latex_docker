@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:18.04
 MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
