@@ -1,3 +1,6 @@
+## Current version
+
+This is currently using the April 2019 build of TexLive.
 
 ## Description
 
