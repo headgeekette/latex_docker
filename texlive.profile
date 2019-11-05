@@ -2,7 +2,7 @@
 # It will NOT be updated and reflects only the
 # installation profile at installation time.
 selected_scheme scheme-custom
-TEXDIR /usr/local/texlive/2018
+TEXDIR /usr/local/texlive/2019
 TEXMFCONFIG ~/.texlive2018/texmf-config
 TEXMFHOME ~/texmf
 TEXMFLOCAL /usr/local/texlive/texmf-local
