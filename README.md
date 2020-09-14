@@ -12,10 +12,10 @@ This docker was created for the sole purpose of generating PDF files through `te
 
 To use the default `pdflatex` compiler:
 ```
-docker run -v `pwd`:/source headgeekette/docker-latex [filename].tex
+docker run -v `pwd`:/source headgeekette/latex [filename].tex
 ```
 
 To use XeTeX:
 ```
-docker run -v `pwd`:/source headgeekette/docker-latex --compiler=xetex [filename].tex
+docker run -v `pwd`:/source headgeekette/latex --compiler=xetex [filename].tex
 ```
