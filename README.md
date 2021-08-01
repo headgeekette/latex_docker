@@ -1,7 +1,3 @@
-## Current version
-
-This is currently using the April 2020 build of TexLive.
-
 ## Description
 
 This docker was created for the sole purpose of generating PDF files through `texliveonfly`. 
