@@ -11,8 +11,9 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz \
-	&& tar -zxf install-tl-unx.tar.gz \
+COPY install-tl-unx.tar.gz ./
+
+RUN tar -zxf install-tl-unx.tar.gz \
     && mkdir -p /profiles/ \
     && mkdir -p /source
 
