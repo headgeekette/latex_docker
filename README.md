@@ -6,12 +6,17 @@ This docker was created for the sole purpose of generating PDF files through `te
 
 ## Usage
 
+To compile:
+```
+docker build --pull --rm -f "Dockerfile" -t pdflatex "."
+```
+
 To use the default `pdflatex` compiler:
 ```
-docker run -v `pwd`:/source headgeekette/docker-latex [filename].tex
+docker run --rm -v `pwd`:/source pdflatex [filename].tex
 ```
 
 To use XeTeX:
 ```
-docker run -v `pwd`:/source headgeekette/docker-latex --compiler=xetex [filename].tex
+docker run --rm -v `pwd`:/source pdflatex --compiler=xetex [filename].tex
 ```
